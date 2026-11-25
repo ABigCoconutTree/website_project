@@ -1,0 +1,14 @@
+* {
+    font-family: 'Roboto';
+    background-color: #1F2937;
+    color: white
+}
+
+.flex-container {
+    display: flex;
+}
+
+.flex-container.button{
+    background-color: #3882F6;
+}
+
