@@ -1,14 +1,44 @@
 * {
     font-family: 'Roboto';
-    background-color: #1F2937;
-    color: white
+    color: white;
+    background-color: blue;
 }
 
 .flex-container {
     display: flex;
 }
 
-.flex-container.button{
-    background-color: #3882F6;
+img{
+    display:block;
 }
 
+.button{
+    display: inline-block;
+    background-color: #3882F6;
+    padding: 8px 16px;
+    border-radius: 8px;
+    margin-top: 5px;
+}
+
+.button p{
+    background:transparent;
+    margin: 0;
+}
+
+.dark_blue {
+    background-color: #1F2937;
+    width: 98%;
+    margin: 0 auto;
+    padding: 16px;
+    box-sizing: border-box;
+    border-radius: 12px;
+}
+.white {
+    width: 98%;
+    margin: 0 auto;
+    padding: 16px;
+    box-sizing: border-box;
+    border-radius: 12px;
+    color:grey;
+}
+ 
