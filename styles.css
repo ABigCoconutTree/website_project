@@ -1,16 +1,33 @@
 * {
     font-family: 'Roboto';
     color: white;
-    background-color: blue;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 .flex-container {
     display: flex;
 }
 
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.hero img{
+    width: 300px;
+}
+
+.main_sec{
+    
+    
+}
 img{
     display:block;
 }
+
 
 .button{
     display: inline-block;
@@ -27,18 +44,12 @@ img{
 
 .dark_blue {
     background-color: #1F2937;
-    width: 98%;
-    margin: 0 auto;
-    padding: 16px;
-    box-sizing: border-box;
-    border-radius: 12px;
+    width: 100%;
+    color: #F9FAF8;
+    padding: 20px 10% 80px;
+    min-height: 25vh
 }
 .white {
-    width: 98%;
-    margin: 0 auto;
-    padding: 16px;
-    box-sizing: border-box;
-    border-radius: 12px;
-    color:grey;
+    
 }
  
